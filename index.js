@@ -15,7 +15,7 @@ module.exports = {
            ? strings.map(string => jstsEngine(string, environment))
            : jstsEngine(strings, environment)
 
-  }.
+  },
 
   render: function(strings = [], tag = document.body) {
 
