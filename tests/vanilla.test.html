@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>JSTS-DOM Browser Test</title>
+
+<template type=text/jsts>
+  html {
+    background: ${'li' + 'me'}
+  }
+</template>
+
+<script type=module>
+  import {read, process, render} from '../index.es.js'
+
+  document.head.appendChild(
+    render(
+      process(read()),
+      document.createElement('style')
+    )
+  )
+</script>

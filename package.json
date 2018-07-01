@@ -1,0 +1,37 @@
+{
+  "name": "jsts-dom",
+  "version": "0.0.1",
+  "description": "Helpers for JSTS files in the browser",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhodgins/jsts-dom.git"
+  },
+  "keywords": [
+    "JSTS",
+    "JS",
+    "JavaScript",
+    "Template",
+    "String",
+    "Strings",
+    "Literal",
+    "Literals",
+    "File",
+    "Format"
+  ],
+  "author": "Tommy Hodgins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomhodgins/jsts-dom/issues"
+  },
+  "homepage": "https://github.com/tomhodgins/jsts-dom#readme",
+  "dependencies": {
+    "jsts-engine": "0.0.1"
+  }
+}
