@@ -1,4 +1,3 @@
-// requires jsts-engine.js
 const jstsDom = {
 
   read: function(selector = '[type="text/jsts"]') {
