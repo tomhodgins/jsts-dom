@@ -1,6 +1,6 @@
 {
   "name": "jsts-dom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Helpers for JSTS files in the browser",
   "main": "index.js",
   "module": "index.es.js",
