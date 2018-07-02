@@ -25,7 +25,11 @@ export function render(strings = [], tag = document.body) {
 
 }
 
-export function mount(selector = '[type="text/jsts"]', tag = document.body, environment = {}) {
+export function mount(
+  selector = '[type="text/jsts"]',
+  tag = document.body,
+  environment = {}
+) {
 
   return render(
     process(

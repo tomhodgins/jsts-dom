@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Helpers for JSTS files in the browser",
   "main": "index.js",
+  "module": "index.es.js",
   "directories": {
     "test": "tests"
   },

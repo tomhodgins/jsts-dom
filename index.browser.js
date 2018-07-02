@@ -28,7 +28,8 @@ const jstsDom = {
   mount: function(
     selector = '[type="text/jsts"]',
     tag = document.body,
-    environment = {}) {
+    environment = {}
+  ) {
 
     return render(
       process(
